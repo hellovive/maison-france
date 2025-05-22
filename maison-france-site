@@ -1,0 +1,10 @@
+maison-france-site/
+│
+├── index.html        ← Main homepage (HTML file I gave you)
+├── style.css         ← Optional (if you're separating styling)
+├── script.js         ← Optional (for dynamic content like listings)
+├── data/
+│   └── listings.json ← Optional (if storing property data separately)
+└── images/
+    ├── apt1.jpg
+    └── apt2.jpg
