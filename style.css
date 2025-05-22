@@ -1,54 +1,34 @@
-/* 기본 바디 스타일 */
 body {
-  background-color: #000000; /* 진한 블랙 */
-  color: #FFFFFF; /* 화이트 텍스트 */
-  font-family: 'Noto Sans KR', sans-serif; /* 한글 지원 깔끔한 폰트 */
+  background-color: #2E2E2E; /* 아주 짙은 그레이 */
+  color: #F5F5F5; /* 밝은 아이보리 */
+  font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* 헤더 스타일 */
 header {
-  background-color: #b9952f; /* 골드 색상 */
-  color: #000000; /* 검은색 텍스트 */
-  padding: 20px 40px;
+  background-color: #C9A66B; /* 골드빛 베이지 */
+  color: #3B2F2F; /* 다크 브라운 */
+  padding: 15px 30px;
+  font-size: 1.8em;
   font-weight: 700;
-  font-size: 24px;
   text-align: center;
-  letter-spacing: 2px;
 }
 
-/* 버튼 스타일 */
 button {
-  background-color: transparent;
-  color: #b9952f; /* 골드 */
-  border: 2px solid #b9952f;
+  background-color: #B9952F; /* 골드 */
+  border: none;
+  color: #2E2E2E; /* 배경색과 대비되는 어두운 색 */
   padding: 12px 25px;
   font-weight: 700;
   cursor: pointer;
   border-radius: 5px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease;
+  font-size: 1em;
 }
 
 button:hover {
-  background-color: #b9952f; /* 골드 배경 */
-  color: #000000; /* 검은색 텍스트 */
+  background-color: #8C751E; /* 더 진한 골드 */
 }
 
-/* 링크 스타일 */
-a {
-  color: #b9952f;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: #FFD700; /* 좀 더 밝은 골드 */
-}
-
-/* 섹션 및 기타 스타일 */
-section {
-  padding: 40px;
-  max-width: 1200px;
-  margin: auto;
-}
+/* 필요한 다른 요소들도 비슷한 톤으로 맞출 수 있어요 */
