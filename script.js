@@ -1,0 +1,1 @@
+echo 'console.log("Maison France 웹사이트 로딩 완료!");' > script.js

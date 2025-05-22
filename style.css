@@ -1,0 +1,7 @@
+echo 'header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}' > style.css
