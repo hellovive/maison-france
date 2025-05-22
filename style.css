@@ -1,34 +1,81 @@
+/* 기본 폰트 및 색상 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
 body {
-  background-color: #2E2E2E; /* 아주 짙은 그레이 */
-  color: #F5F5F5; /* 밝은 아이보리 */
-  font-family: 'Arial', sans-serif;
+  font-family: 'Noto Sans KR', 'Helvetica Neue', Arial, sans-serif;
+  background-color: #FAFAFA;
+  color: #333333;
   margin: 0;
   padding: 0;
 }
 
+/* 헤더 */
 header {
-  background-color: #C9A66B; /* 골드빛 베이지 */
-  color: #3B2F2F; /* 다크 브라운 */
-  padding: 15px 30px;
-  font-size: 1.8em;
+  background-color: #FFFFFF;
+  color: #333333;
+  padding: 20px 40px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   font-weight: 700;
-  text-align: center;
+  font-size: 24px;
 }
 
+/* 네비게이션 링크 (필요 시) */
+nav a {
+  color: #333333;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #B9985B;
+}
+
+/* 버튼 스타일 */
 button {
-  background-color: #B9952F; /* 골드 */
+  background-color: #B9985B;
+  color: #FFFFFF;
   border: none;
-  color: #2E2E2E; /* 배경색과 대비되는 어두운 색 */
   padding: 12px 25px;
   font-weight: 700;
   cursor: pointer;
   border-radius: 5px;
   transition: background-color 0.3s ease;
-  font-size: 1em;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 button:hover {
-  background-color: #8C751E; /* 더 진한 골드 */
+  background-color: #8C754B;
 }
 
-/* 필요한 다른 요소들도 비슷한 톤으로 맞출 수 있어요 */ 
+/* 링크 텍스트 */
+a {
+  color: #B9985B;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8C754B;
+  text-decoration: underline;
+}
+
+/* 제목 */
+h1, h2, h3 {
+  color: #222222;
+  font-weight: 700;
+}
+
+/* 본문 텍스트 */
+p {
+  line-height: 1.6;
+  color: #444444;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+/* 기타 레이아웃 조정 */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
