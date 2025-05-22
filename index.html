@@ -1,13 +1,58 @@
-echo '<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Maison France</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="파리에서 집 구하기, Maison France 부동산 - 한국인을 위한 프랑스 부동산 서비스">
+  <meta name="keywords" content="프랑스 부동산, 파리 아파트, Maison France, 파리 임대, 프랑스 집, 유학생 집">
+  <meta name="author" content="Maison France">
+  <title>Maison France | 프랑스 파리 부동산</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header><h1>Maison France</h1></header>
+  <header>
+    <h1>Maison France</h1>
+    <nav>
+      <a href="index.html">홈</a>
+      <a href="#listings">매물 리스트</a>
+      <a href="#contact">문의하기</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>프랑스 파리에서<br>당신의 집을 찾아드립니다</h2>
+      <p>Maison France는 한국인을 위한 맞춤형 프랑스 부동산 서비스입니다.</p>
+    </section>
+
+    <section id="listings" class="listings">
+      <h2>추천 매물</h2>
+      <div class="property">
+        <img src="https://via.placeholder.com/300x200" alt="샹젤리제 아파트">
+        <h3>파리 8구 샹젤리제 근처 아파트</h3>
+        <p>보증금 없음 / 월세 1,800유로<br>침실 2 / 거실 1 / 엘리베이터 있음</p>
+      </div>
+      <!-- 추가 매물은 이곳에 복사해서 붙여넣기 -->
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>문의하기</h2>
+      <form>
+        <label for="name">이름:</label><br>
+        <input type="text" id="name" name="name" /><br>
+        <label for="email">이메일:</label><br>
+        <input type="email" id="email" name="email" /><br>
+        <label for="message">문의 내용:</label><br>
+        <textarea id="message" name="message"></textarea><br>
+        <button type="submit">보내기</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Maison France. All rights reserved.</p>
+  </footer>
+
   <script src="script.js"></script>
 </body>
-</html>' > index.html
+</html>
